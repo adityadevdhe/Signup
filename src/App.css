@@ -1,0 +1,36 @@
+
+.App {
+    overflow: hidden;
+    color: var(--black);
+    background:#fff;
+    padding: 1rem 1rem;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  background: #C1C1C1;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10.5px );
+  -webkit-backdrop-filter: blur( 10.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: all 100ms ease-out;
+}
+.button:hover{
+  cursor: pointer;
+  color: #000;
+  background: transparent;
+  border: 2px solid #000;
+}
+.button:disabled{
+  background: silver;
+  pointer-events: none;
+}
+::-webkit-scrollbar{
+  display: none;
+}
